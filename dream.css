@@ -60,7 +60,6 @@
     #belownav{
         height:400px;
         margin-left:0px;
-       /* padding:30px;*/
         padding-left:40px;
        position:fix;
     }
@@ -93,7 +92,6 @@
             }
         #right{
             height:500px;
-            
             width:740px;
             float:right;
         }
@@ -135,7 +133,6 @@
 .block1{
         width:250px;
         height:250px;
-        position:absolute;
         margin:50px;
         padding:20px;
         background-color:rgb(114, 114, 238);

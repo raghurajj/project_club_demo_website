@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+    body{
+        background-image:url("joinback.jpg");
+        border:1px solid black;
+        margin:0;
+    }
+        
+        #ul1 {
+            list-style: none;
+        }
+        #ul1 li {
+            font-size: 25px;
+            float:left;
+            background-color:white;
+            text-align: center;
+            padding: 10px;
+            width: 200px;
+            margin-left: 200px;
+        }
+
+        #ul1 li:hover {
+            background:brown;
+            color:white;
+            border-bottom:5px solid orange;
+            
+            
+        }
+        #ul1 li a{
+            text-decoration:none;
+        }
+        p {
+           background-color: darkgray;
+           align-self: center;
+        }
+     form {
+         width:350px;
+         height: 300px;
+         padding:20px;
+         background-color: silver;
+         border:2px solid black ;
+         margin:150px auto;
+     }
+
+     input[type='text'],select,[type=email] {
+         width:200px;
+         height:20px;
+         border: 1px solid black;
+     }
+
+     input[type="submit"],[type='reset']{
+       background-color: brown;
+       color:white;
+       border:1px solid black;
+       width:100px;
+       height:20px;
+     }
+     #div1{
+         height:100px;
+         background-color:brown;
+
+        
+     }
+     #div1 h1{
+         margin:0;
+         text-align: center;
+         font-size: 400%;
+         color:white;
+         padding-top: 5px;
+         text-shadow:3px 3px 15px green; 
+     }
+
+     #div3{
+        box-shadow:inset 9px 9px 150px red;
+
+     }
+    </style>
+<head>
+   
+    <title>registration page</title>
+</head>
+<div id=div1><h1>JOIN US</h1></div>
+
+<body>
+    <ul id="ul1">
+        <li><a href=home.html>HOME</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+       
+    </ul>
+   <br>
+   <br>
+   <br>
+   <div id="div2">
+   <form id="div3">
+       <h2>Fill the Form</h2>
+       <table>
+        <tr>
+            <td>Name</td>
+            <td><input type = "text" name="name"/></td>
+
+        </tr>
+        <tr>
+                <td>Email id</td>
+                <td><input type = "email" name="email id"/></td>
+    
+            </tr>
+        <tr>
+            <td>Gender</td>
+            <td>Male:<input type="radio" name="Gender" value='male'><br>Female: <input type="radio" name="Gender">
+            </td>
+
+        </tr>
+        <tr>
+        <td>Select your batch</td>
+        <td><select id='batch'>
+            <option>Select your batch</option>
+            <option>UG1</option>
+            <option>UG2</option>
+            <option>UG3</option> 
+            <option>UG4</option>
+
+        </select>
+        </td>
+        </tr>
+        <td></td>
+         <td><input type="submit" value="join"/>
+         <input type="reset"/></td>
+
+
+    </table>
+
+</form>
+</div>
+</p>
+
+
+</body>
+</html>

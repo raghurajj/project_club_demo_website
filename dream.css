@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+}
+#container{
+    margin:0;
+    border:1px solid black;
+    background-image:url("mainback.jpg");
+   
+} 
+    #header{
+        width:1520px;
+        background-color:brown;
+        height:100px;
+        color: pink;
+       position:fixed;
+      
+        
+        font-size: 180%;
+        text-shadow:3px 3px 5px blue; 
+    }
+    #image{
+        float:left;
+    }
+    #H1{
+        padding:20px 400px;
+        
+       
+    }
+    #nav{
+        position: fixed;
+        top:100px;
+        background-color: blue;
+        width:1520px;
+        height:50px;
+    }
+        #nav ul{
+            list-style: none;
+        }
+            #nav ul li{
+                width:250px;
+                float:left;
+                padding:20px 20px;
+                text-align: center;
+                color :white;
+            }
+            #nav li a{
+                text-decoration:none;
+            }
+            #a2,#a6,#a3,#a4,#a5{
+                color:white;
+            }
+            
+                #nav ul li:hover{
+                    background-color:black;
+                    border-bottom: 5px solid red;
+                    height:8px;
+                    width:250px;
+                }
+    #belownav{
+        height:400px;
+        margin-left:0px;
+       /* padding:30px;*/
+        padding-left:40px;
+       position:fix;
+    }
+    #rt1{
+        color:white;
+        font-size: 300%;
+        text-align:center;
+        padding-top:200px;
+    }
+    #img1,#img2,#img3{
+        margin-right:50px
+    }
+    #middle{
+        width:1480px;
+    }
+        #left{
+            height:500px;
+            width:740px;
+            float:left;
+            position:relative;
+
+        }
+            #insideleft{
+                position:relative;
+                margin:60px;
+                padding:40px;
+                background-color:white;
+                box-sizing:border-box;
+                box-shadow:15px 15px brown;
+            }
+        #right{
+            height:500px;
+            
+            width:740px;
+            float:right;
+        }
+        #insideright{
+            position:relative;
+            margin:60px;
+            padding:40px;
+            background-color: white;
+            box-sizing:border-box;
+            box-shadow:15px 15px brown;
+        }
+        #footer{
+            height:50px;
+            background-color:brown;
+            text-align: center;
+            padding-top:25px;
+            color:white;
+        }
+        #rs1,#rs2{
+            background-color:brown;
+            text-align:center;
+            color:white;
+            height:50PX;
+            padding-top:10px;
+        }
+/*.....................................................................................................................*/
+#container1{
+    background-image:url("member,back.png");
+    position:absolute;
+}
+
+#head{
+    text-shadow:3px 3px 5px #ff0022; 
+    text-align: center;
+    font-size: 400%;
+    padding:20px;
+}
+
+.block1{
+        width:250px;
+        height:250px;
+        position:absolute;
+        margin:50px;
+        padding:20px;
+        background-color:rgb(114, 114, 238);
+        box-sizing:border-box;
+        box-shadow:15px 15px black;
+        float:left;
+        box-shadow:inset 7px 2px 15px red;
+        
+}
+#p1{
+    padding-top: 20px;
+}
+.img1{
+    width:30%;
+    display: block;
+    margin-left:65px;
+   
+    clear:both;
+
+}
+
+#list1{
+    list-style: none;
+    color:white;
+    font-size: 200%;
+    margin-left:10px;
+    font-weight: bolder;
+    width:150px;
+    background-color:black;
+    text-align: center;
+
+}
+#a1{
+    text-decoration: none;
+    color:white;
+    
+    
+}
+#list1:hover{
+    list-style: none;
+    background-color:red;
+    width:150px;
+    border-bottom: 5px solid black;
+    text-align: center;
+    font-weight: bolder;
+}
+#p1 a{
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
